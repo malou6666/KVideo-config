@@ -345,37 +345,10 @@
       "filterable": 1
     },
     {
-      "key": "cms_a_0d15c1f8",
-      "name": "[18+] 🔞-大奶子-",
-      "type": 1,
-      "api": "https://apidanaizi.com/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "cms_a_7c0657bd",
       "name": "[18+] 🔞鲨鱼资源",
       "type": 1,
       "api": "https://shayuapi.com/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "cms_a_4edcbc75",
-      "name": "[18+] 🔞-美少女-",
-      "type": 1,
-      "api": "https://www.msnii.com/api/json.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "cms_a_9741445d",
-      "name": "[18+] 🔞白嫖资源",
-      "type": 1,
-      "api": "https://www.kxgav.com/api/json.php",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
