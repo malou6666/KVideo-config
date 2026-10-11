@@ -21,6 +21,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # 自动同步上游最新配置
+      - name: Sync latest config from upstream
+        run: |
+          curl -sSL "https://raw.githubusercontent.com/puppet680/KVideo-config/main/KVideo-config.json" -o KVideo-config.json || true
+          curl -sSL "https://raw.githubusercontent.com/puppet680/KVideo-config/main/check_api.js" -o check_api.js || true
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
@@ -34,61 +40,14 @@ jobs:
           SEARCH_KEY="${{ github.event.inputs.api_name || '斗罗大陆' }}"
           node check_api.js "$SEARCH_KEY"
 
-      - name: Generate TVBox Config
+      - name: Generate TVBox Configs
         run: |
-          node -e '
-            const fs = require("fs");
-            const crypto = require("crypto");
-
-            try {
-              if (!fs.existsSync("lite.json")) {
-                console.error("lite.json 不存在，跳过转换");
-                process.exit(0);
-              }
-
-              const raw = fs.readFileSync("lite.json", "utf-8");
-              const parsed = JSON.parse(raw);
-              const list = Array.isArray(parsed) ? parsed : (parsed.sites || parsed.data || []);
-
-              const sites = [];
-              for (const item of list) {
-                // 兼容 KVideo 的 baseUrl 命名或通用 api 字段
-                const apiUrl = item.baseUrl || item.api || item.url;
-                const name = item.name || "未命名接口";
-
-                if (!apiUrl || typeof apiUrl !== "string") continue;
-
-                // 基于 URL 生成稳定的 8 位 key
-                const key = "cms_" + crypto.createHash("md5").update(apiUrl).digest("hex").slice(0, 8);
-
-                sites.push({
-                  key: key,
-                  name: name,
-                  type: 1, // 1 表示标准苹果 CMS (json) 接口
-                  api: apiUrl,
-                  searchable: 1,
-                  quickSearch: 1,
-                  filterable: 1
-                });
-              }
-
-              const tvboxConfig = {
-                spider: "",
-                wallpaper: "https://picsum.photos/1920/1080",
-                sites: sites
-              };
-
-              fs.writeFileSync("tvbox.json", JSON.stringify(tvboxConfig, null, 2), "utf-8");
-              console.log(`成功生成 tvbox.json，共包含 ${sites.length} 个可用源`);
-            } catch (err) {
-              console.error("生成 TVBox 配置失败:", err);
-            }
-          '
+          python generate_tvbox.py
 
       - name: Commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add adult.json lite.json report.md tvbox.json
-          git commit -m "chore: 自动更新接口状态及 TVBox 配置 [$(date +'%Y-%m-%d %H:%M')]" || echo "No changes"
+          git add KVideo-config.json check_api.js adult.json lite.json report.md tvbox.json tvbox-adult.json
+          git commit -m "chore: 同步上游并更新标准与扩展 TVBox 配置 [$(date +'%Y-%m-%d %H:%M')]" || echo "No changes"
           git push
