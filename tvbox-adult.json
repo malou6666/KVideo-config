@@ -318,15 +318,6 @@
       "filterable": 1
     },
     {
-      "key": "cms_a_e9e7c34a",
-      "name": "[18+] 🔞155-资源",
-      "type": 1,
-      "api": "https://155api.com/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "cms_a_979dfd02",
       "name": "[18+] 🔞黄色仓库",
       "type": 1,
@@ -340,6 +331,24 @@
       "name": "[18+] 🔞souavZY",
       "type": 1,
       "api": "https://api.souavzyw.net/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cms_a_ccf2a73c",
+      "name": "[18+] 🔞玉兔资源",
+      "type": 1,
+      "api": "https://apiyutu.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cms_a_5b4e8d96",
+      "name": "[18+] 🔞-老色逼-",
+      "type": 1,
+      "api": "https://apilsbzy1.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
