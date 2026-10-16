@@ -219,6 +219,15 @@
       "filterable": 1
     },
     {
+      "key": "cms_a_979dfd02",
+      "name": "[18+] 🔞黄色仓库",
+      "type": 1,
+      "api": "https://hsckzy.xyz/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "cms_a_2a9adbb4",
       "name": "[18+] 🔞jkun资源",
       "type": 1,
@@ -318,10 +327,10 @@
       "filterable": 1
     },
     {
-      "key": "cms_a_979dfd02",
-      "name": "[18+] 🔞黄色仓库",
+      "key": "cms_a_df75d79d",
+      "name": "[18+] 🔞乐播资源",
       "type": 1,
-      "api": "https://hsckzy.xyz/api.php/provide/vod",
+      "api": "https://lbapi9.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
