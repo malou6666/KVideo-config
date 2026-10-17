@@ -3,15 +3,6 @@
   "wallpaper": "https://picsum.photos/1920/1080",
   "sites": [
     {
-      "key": "cms_db5eab26",
-      "name": "🎬-爱奇艺-",
-      "type": 1,
-      "api": "https://iqiyizyapi.com/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "cms_ba7926e6",
       "name": "🎬iKun资源",
       "type": 1,
