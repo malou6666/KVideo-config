@@ -174,15 +174,6 @@
       "filterable": 1
     },
     {
-      "key": "cms_db5eab26",
-      "name": "🎬-爱奇艺-",
-      "type": 1,
-      "api": "https://iqiyizyapi.com/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "cms_ba84c0a9",
       "name": "🎬速播资源",
       "type": 1,
