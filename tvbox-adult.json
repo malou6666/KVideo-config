@@ -120,15 +120,6 @@
       "filterable": 1
     },
     {
-      "key": "cms_175f6376",
-      "name": "🎬如意资源",
-      "type": 1,
-      "api": "https://cj.rycjapi.com/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "cms_62869c2c",
       "name": "🎬无尽资源",
       "type": 1,
@@ -174,6 +165,15 @@
       "filterable": 1
     },
     {
+      "key": "cms_db5eab26",
+      "name": "🎬-爱奇艺-",
+      "type": 1,
+      "api": "https://iqiyizyapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "cms_1155e267",
       "name": "🎬新浪资源",
       "type": 1,
@@ -187,15 +187,6 @@
       "name": "[18+] 🔞麻豆视频",
       "type": 1,
       "api": "https://91md.me/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "cms_a_161440fd",
-      "name": "[18+] 🔞番号资源",
-      "type": 1,
-      "api": "http://fhapi9.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -318,19 +309,19 @@
       "filterable": 1
     },
     {
-      "key": "cms_a_df75d79d",
-      "name": "[18+] 🔞乐播资源",
+      "key": "cms_a_e9e7c34a",
+      "name": "[18+] 🔞155-资源",
       "type": 1,
-      "api": "https://lbapi9.com/api.php/provide/vod",
+      "api": "https://155api.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
     },
     {
-      "key": "cms_a_7c0657bd",
-      "name": "[18+] 🔞鲨鱼资源",
+      "key": "cms_a_df75d79d",
+      "name": "[18+] 🔞乐播资源",
       "type": 1,
-      "api": "https://shayuapi.com/api.php/provide/vod",
+      "api": "https://lbapi9.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1

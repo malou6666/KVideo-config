@@ -120,15 +120,6 @@
       "filterable": 1
     },
     {
-      "key": "cms_175f6376",
-      "name": "🎬如意资源",
-      "type": 1,
-      "api": "https://cj.rycjapi.com/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "cms_62869c2c",
       "name": "🎬无尽资源",
       "type": 1,
@@ -169,6 +160,15 @@
       "name": "🎬豪华资源",
       "type": 1,
       "api": "https://hhzyapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cms_db5eab26",
+      "name": "🎬-爱奇艺-",
+      "type": 1,
+      "api": "https://iqiyizyapi.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
