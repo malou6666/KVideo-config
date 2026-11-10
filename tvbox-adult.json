@@ -201,6 +201,24 @@
       "filterable": 1
     },
     {
+      "key": "cms_a_ccf2a73c",
+      "name": "[18+] 🔞玉兔资源",
+      "type": 1,
+      "api": "https://apiyutu.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cms_a_5b4e8d96",
+      "name": "[18+] 🔞-老色逼-",
+      "type": 1,
+      "api": "https://apilsbzy1.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "cms_a_b881aeb4",
       "name": "[18+] 🔞小鸡资源",
       "type": 1,
@@ -309,28 +327,10 @@
       "filterable": 1
     },
     {
-      "key": "cms_a_ccf2a73c",
-      "name": "[18+] 🔞玉兔资源",
-      "type": 1,
-      "api": "https://apiyutu.com/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "cms_a_161440fd",
       "name": "[18+] 🔞番号资源",
       "type": 1,
       "api": "http://fhapi9.com/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "cms_a_5b4e8d96",
-      "name": "[18+] 🔞-老色逼-",
-      "type": 1,
-      "api": "https://apilsbzy1.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
