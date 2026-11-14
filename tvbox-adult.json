@@ -102,10 +102,28 @@
       "filterable": 1
     },
     {
+      "key": "cms_8468aa5e",
+      "name": "🎬最大资源",
+      "type": 1,
+      "api": "https://api.zuidapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "cms_62869c2c",
       "name": "🎬无尽资源",
       "type": 1,
       "api": "https://api.wujinapi.me/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cms_35175d3e",
+      "name": "🎬金鹰点播",
+      "type": 1,
+      "api": "https://jinyingzy.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -228,6 +246,15 @@
       "filterable": 1
     },
     {
+      "key": "cms_a_df75d79d",
+      "name": "[18+] 🔞乐播资源",
+      "type": 1,
+      "api": "https://lbapi9.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "cms_a_a6a46693",
       "name": "[18+] 🔞森林资源",
       "type": 1,
@@ -313,15 +340,6 @@
       "name": "[18+] 🔞番号资源",
       "type": 1,
       "api": "http://fhapi9.com/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "cms_a_df75d79d",
-      "name": "[18+] 🔞乐播资源",
-      "type": 1,
-      "api": "https://lbapi9.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
