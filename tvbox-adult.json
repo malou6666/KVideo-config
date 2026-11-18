@@ -120,6 +120,15 @@
       "filterable": 1
     },
     {
+      "key": "cms_35175d3e",
+      "name": "🎬金鹰点播",
+      "type": 1,
+      "api": "https://jinyingzy.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "cms_49f59375",
       "name": "🎬红牛资源",
       "type": 1,
@@ -151,6 +160,15 @@
       "name": "🎬豪华资源",
       "type": 1,
       "api": "https://hhzyapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cms_db5eab26",
+      "name": "🎬-爱奇艺-",
+      "type": 1,
+      "api": "https://iqiyizyapi.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
