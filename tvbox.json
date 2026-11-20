@@ -93,6 +93,15 @@
       "filterable": 1
     },
     {
+      "key": "cms_88195273",
+      "name": "🎬极速资源",
+      "type": 1,
+      "api": "https://jszyapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "cms_a8fedf19",
       "name": "🎬魔都资源",
       "type": 1,
@@ -160,6 +169,24 @@
       "name": "🎬新浪资源",
       "type": 1,
       "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cms_35175d3e",
+      "name": "🎬金鹰点播",
+      "type": 1,
+      "api": "https://jinyingzy.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cms_462ef6ab",
+      "name": "🎬光速资源",
+      "type": 1,
+      "api": "https://api.guangsuapi.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
