@@ -156,24 +156,6 @@
       "filterable": 1
     },
     {
-      "key": "cms_35175d3e",
-      "name": "🎬金鹰点播",
-      "type": 1,
-      "api": "https://jinyingzy.com/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "cms_462ef6ab",
-      "name": "🎬光速资源",
-      "type": 1,
-      "api": "https://api.guangsuapi.com/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "cms_66f1d0e5",
       "name": "🎬魔都动漫",
       "type": 1,
@@ -349,15 +331,6 @@
       "name": "[18+] 🔞辣椒资源",
       "type": 1,
       "api": "https://apilj.com/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "cms_a_7c0657bd",
-      "name": "[18+] 🔞鲨鱼资源",
-      "type": 1,
-      "api": "https://shayuapi.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
